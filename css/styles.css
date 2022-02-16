@@ -309,3 +309,74 @@ hr{
     color: white;
     border-radius: 6px;    
 }
+
+#mechanics{
+    background-color: #e5e9fd;
+}
+
+.mechanics-heading{
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.mechanics-heading h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+.mechanics-heading p{
+    color: gray;
+    word-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.mechanics-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.mechanic-card{
+    height: 400px;
+    width: 380px;
+    margin: 15px;
+    box-shadow: rgba(62, 62, 70, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mechanic-img{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mechanic-img img{
+    border-radius: 100px;
+}
+
+.mechanic-info h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mechanic-info p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 300;
+    word-spacing: 2px;
+    color: #585757;
+}
+
+.mechanic-info{
+    padding-top: 25px;
+}
+
+.mechanic-card:hover{
+    border: 1px solid #2766db;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
